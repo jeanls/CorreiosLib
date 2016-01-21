@@ -1,0 +1,17 @@
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\bin\Debug\CorreiosMonitor.exe
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\bin\Debug\CorreiosMonitor.pdb
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\bin\Debug\MetroFramework.Design.dll
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\bin\Debug\MetroFramework.dll
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\bin\Debug\MetroFramework.Fonts.dll
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\obj\Debug\CorreiosMonitor.csprojResolveAssemblyReference.cache
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\obj\Debug\CorreiosMonitor.Form1.resources
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\obj\Debug\CorreiosMonitor.Properties.Resources.resources
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\obj\Debug\CorreiosMonitor.csproj.GenerateResource.Cache
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\obj\Debug\CorreiosMonitor.exe
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\obj\Debug\CorreiosMonitor.pdb
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\bin\Debug\RastreamentoCorreios.dll
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\bin\Debug\RastreamentoCorreios.pdb
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\bin\Debug\CorreiosMonitor.exe.manifest
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\bin\Debug\CorreiosMonitor.application
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\obj\Debug\CorreiosMonitor.exe.manifest
+c:\users\jeand\documents\visual studio 2015\Projects\CorreiosMonitor\CorreiosMonitor\obj\Debug\CorreiosMonitor.application

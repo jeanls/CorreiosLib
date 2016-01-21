@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CorreiosMonitor.exe" version="1.0.0.0" publicKeyToken="3b771b1bd5b0737b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="AppIcon60x60_2x.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CorreiosMonitor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CorreiosMonitor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CorreiosMonitor.exe" size="79808">
+      <assemblyIdentity name="CorreiosMonitor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ItFudmbf2M3FRi42nPH9kDYuuws=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="337920">
+      <assemblyIdentity name="MetroFramework" version="1.3.5.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>N9MxyEFAYfngyqV+j9HagCDP79g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.3.5.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TUmuh5MITjDd2w6qedrORn2ot6o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.3.5.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>PQbgGmiBGxW+gHM3NI9Winm6A0g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RastreamentoCorreios.dll" size="7168">
+      <assemblyIdentity name="RastreamentoCorreios" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Vj3dYTzlCo+Sa0uKEdIuVI7/YIg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AppIcon60x60_2x.ico" size="32038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FP7Fm9YKp9kfAQP+L7j8ljrp7+k=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-H73RMPI\jeand" issuerKeyHash="dc469fe578e120cfdf4d89621900cc70feb31aa0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>f1gGxzBbE2tHXx7Z7uQ/rsxo1Is=</DigestValue></Reference></SignedInfo><SignatureValue>KWEybWYNg/3Gr9yC2PqoxfjHcaGVbh9P2FFKdWDN/CXJeFpm4SNXz2qu4Z+XIXMf3rvQi45cKm5kwGdUzJyK5qp+sq7u6RpxEKknwXmPhg8Kyd135bjg9Ibp/woXzlU5vyl3Mja88R6VWTmoHErOmz2H6XlYV+Ifoi9423E0Lwc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oy2JRh3REXnZVsawdpAYNxYUF5xGjRd+k2cC0OdZYEVZowydhCJNceH62cXF+h9j0yU+iiRtdtrzrQoyFH+NhXT4M6xUv0NGk4/d+lI1SQ9laksxBIecK1Jhp72L1rNQwjOup0Hcr67MNyW4uqMFEh+deYcmFg8mDQooBpFjhks=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8bd468ccae3fe4eed91e5f476b135b30c706587f" Description="" Url=""><as:assemblyIdentity name="CorreiosMonitor.exe" version="1.0.0.0" publicKeyToken="3b771b1bd5b0737b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-H73RMPI\jeand</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Op4hX96vYFla7h+0gbF8V58Kozg=</DigestValue></Reference></SignedInfo><SignatureValue>SACg7n8spwdiVX8aGA3JrIDa4/oPzaSThYXT92c5851Zs+fxyJ24SG+z4gv4u++LWXzhnGE5AyfKA03sf9oK5qCZpAuAQIrqj+e+eSeTQopJYXhC5Iv60CZ18Y6ZuAWQkqLwFdOL17BRtm3yv6eIxz6fL7pNU0LSRllL4wOMnhU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oy2JRh3REXnZVsawdpAYNxYUF5xGjRd+k2cC0OdZYEVZowydhCJNceH62cXF+h9j0yU+iiRtdtrzrQoyFH+NhXT4M6xUv0NGk4/d+lI1SQ9laksxBIecK1Jhp72L1rNQwjOup0Hcr67MNyW4uqMFEh+deYcmFg8mDQooBpFjhks=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQXqy4WG2D3rxC64g+lWBjizANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEgANwAzAFIATQBQAEkAXABqAGUAYQBuAGQwHhcNMTYwMTIxMDEzMDQ1WhcNMTcwMTIwMDczMDQ1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEgANwAzAFIATQBQAEkAXABqAGUAYQBuAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKMtiUYd0RF52VbGsHaQGDcWFBecRo0XfpNnAtDnWWBFWaMMnYQiTXHh+tnFxfofY9MlPookbXba860KMhR/jYV0+DOsVL9DRpOP3fpSNUkPZWpLMQSHnCtSYae9i9azUMIzrqdB3K+uzDcluLqjBRIfnXmHJhYPJg0KKAaRY4ZLAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAIIDPcNfSPTHKQ+9xyfU+R87DJ+aYBNPqJqaTgNYc0E+uQ+T/NYWTCY3/L3gOTMGH/DVlMn1zofKOYAwfNItHigOiKL84LmhNJNAoycr0VrNW7tAidpSumsbWboy/wMKcWcRjeUUu69eFSs87iyxcgQfZzr4pv7xmChAVhzLLDhU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
